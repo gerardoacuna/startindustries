@@ -1,0 +1,104 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+body {
+	background: #EEE url('../images/bg.png') -50px -50px no-repeat;
+}
+
+.row {
+	background: #FFF;
+}
+
+.title {
+	background-color: #EEE;
+}
+
+.title h1 {
+	font-size: 2rem;
+	text-align: right;
+	margin: 5px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Eurostile';
+}
+
+.slogan {
+	/*font-weight: normal;*/
+	font-size: 2.7rem;
+	line-height: 1.5;
+}
+
+.nav-bar {
+	list-style: none;
+}
+
+.nav-bar li {
+ margin: 25px 0 0;
+}
+
+.nav-bar li a {
+	color: #fff;
+	padding: 10px;
+	background: #750102;
+	font-weight: bold;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.nav-bar li a:hover {
+	background: #550001;
+}
+
+button[type="submit"] {
+	color: #fff;
+	padding: 10px;
+	background: #750102;
+	font-weight: bold;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: none;
+	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+#result {
+	float: right;
+	text-align: right;
+}
+
+.error {
+	color: #F00;
+}
+
+ul li {
+  font-size: 12px;
+}

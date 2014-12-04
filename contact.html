@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Contact Us | START Industries Supply</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  <meta name="title" content="Solutions for the Industry | START Industries Supply">
+  <meta name="description" content="Founded over 15 years providing the best alternatives for the selection, sale, and service of the most prestigious brands of equipment for the most demanding industry.">
+	
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <div class="row title">
+    <div class="twelve columns">
+      <h1>Solutions for the Industry</h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="five columns">
+      <h1><img src="images/logo.jpg" /></h1>
+    </div>
+    <div class="seven columns">
+      <ul class="nav-bar right">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Page Content and Sidebar -->
+
+  <div class="row">
+
+    <!-- Contact Details -->
+    <div class="nine columns">
+
+      <h3>Contact Us</h3>
+      <p>For more information about our products, please send us a message through our contact form.<br/> <strong>Thank you</strong>.</p>
+
+		<form id="contact_form" class="contact" action="ajax_form.php" method="post">
+          <div class="row collapse">
+            <div class="two columns"><label for="name" class="inline">Name</label></div>
+            <div class="ten columns"><input name="name" type="text" id="name" /></div>
+          </div>
+          <div class="row collapse">
+            <div class="two columns"><label for="email" class="inline">Email</label></div>
+            <div class="ten columns"><input name="email" type="email" id="email" /></div>
+          </div>
+          <div class="row collapse">
+            <div class="two columns"><label for="company" class="inline">Company</label></div>
+            <div class="ten columns"><input name="company" type="text" id="company" /></div>
+          </div>
+          <div class="row collapse">
+            <div class="two columns"><label for="phone" class="inline">Phone</label></div>
+            <div class="ten columns"><input name="phone" type="tel" id="phone" /></div>
+          </div>
+
+          <label for="message" >Message</label>
+          <textarea rows="4" name="message"></textarea>
+			<div id="result"></div>	
+          <button type="submit" class="radius button">Send</button>
+		</form>
+    </div>
+
+    <!-- End Contact Details -->
+
+
+    <!-- Sidebar -->
+
+    <div class="three columns">
+
+      <h5>Contact Details</h5>
+
+      <p>
+        1129 Quail Hollow Loop<br />
+        Laredo, TX 78045<br />
+        (956) 728-8190<br />
+        startindustries@aol.com
+      </p>
+
+    </div>
+
+    <!-- End Sidebar -->
+  </div>
+
+  <!-- End Main Content and Sidebar -->
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; START Industries Supply, L.C.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+</body>
+</html>
